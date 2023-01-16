@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+
+     
+}
+#banner{
+    height: 48px;
+    background-color: aquamarine;
+}
+#banner-text{
+    font-size: 17px;
+    width: 70%;    
+}
+#banner{
+    height: 48px;
+    
+}
+#icons{
+    padding-right: 28px;
+    padding-top: 10px;
+}
+.bg-img{
+    height: 380px;
+    width: 100%;
+    background-image: url(https://i03.appmifile.com/544_operator_in/13/01/2023/58ecde44742f6af717f93e02dbeac43a.jpg?f=webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.first-text{
+    position: relative;
+    top: 33%;
+    right: -10%;
+}
+.first-btn{
+    width: 150px;
+}
+
+.me-5:hover {
+    text-decoration: underline;
+    text-decoration-color:orange;
+
+}
+.img-2{
+    height: 450px;
+    /* background-image: url(https://i03.appmifile.com/609_operator_in/13/01/2023/a5c8f0be1ff691f51c520d8fa0fb9481.jpg?f=webp); */
+    width: 100%;
+    padding-top: 1%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+.soc-logo{
+    font-size: 12px;
+    color: white;
+}
+.mi-logos{
+    width: 55%;
+}
+.lin{
+    width: 1px;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+.text-secondary:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.img-tex1{
+    top:8%;
+    left: 15%;
+    justify-items: center;
+}
+.img-tex2{
+    top: 7%;
+    left: 65%;
+    justify-items: center;
+}
+.hide-div{
+    display: none;
+}
+
+.blo{
+ display: block;
+}
+@media all and (max-width:721px) {
+    .bg-img{
+        background-image: url(https://i03.appmifile.com/154_operator_in/13/01/2023/2d4b6ffdbbb34d3f2eab2257014da031.jpg?f=webp);
+    }
+    .first-text{
+        position: relative;
+        top: 1%;
+        left: 0%;
+        text-align: center;
+    }
+    .img-tex1{
+        top:5%;
+        left: 21%;
+        justify-items: center;
+    }
+    .img-tex2{
+        top: 51%;
+        left: 9%;
+        justify-items: center;
+    }
+    .hide-div{
+        height: 30%;
+        width: 50%;
+        display: block;
+        background-color: aqua;
+    }
+    .blo{
+        display:none;
+       }
+    
+    
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7de1dd6a1b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <title>MI</title>
+   
+    
+</head>
+<body>
+   <div style="width: 100vw;overflow: hidden;">
+    <nav id="banner" class="navbar navbar-expand-lg bg-body-tertiary pe-curser">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="data:image/png;base64,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" alt="Logo" width="24" height="24" class=" mx-4 my-1">
+
+          </a>
+          
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div id="banner-text" class="navbar-nav ">
+              <a class="text-dark nav-link me-5" href="">Store</a>
+              <a class=" text-dark nav-link me-5" href="">Phone
+              </a>
+              <a class=" text-dark nav-link me-5" href="">Tv</a>
+              <a class= "text-dark nav-link me-5" href="" >Laptop&Tablet</a>
+              <a class="text-dark  nav-link me-5" href="">Life Style</a>
+               
+            </div>
+            <div class="navbar-nav  ">
+                <a class="text-dark nav-link me-5" href="">Discover</a>
+                <a class="text-dark nav-link me-5" href="">Support</a>
+                <i id="icons"  class="fa-solid fa-magnifying-glass"></i>
+                <i id="icons" class="fa-solid fa-cart-shopping"></i>
+                <i id="icons" class="fa-solid fa-user"></i>     
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+       <div class=" container-fluid p-0 bg-img">
+        
+        <!-- <img class="img-fluid" style="width: 100%;" src="https://i03.appmifile.com/544_operator_in/13/01/2023/58ecde44742f6af717f93e02dbeac43a.jpg?f=webp" alt=""> -->
+        <div  class="first-text">
+        <a  class="fs-2 fw-bold text-decoration-none text-white text-1" href="">Republic Day Sale</a>
+        <br>
+        <a class="fs-4 text-decoration-none text-white text-2" href="">Early Deals are Live!</a>
+        <br>
+        <br>
+        <button class="border-0 rounded-pill first-btn">Chek Out Now</button>
+      </div>
+      </div>  
+      <div  class="img-2 img-fluid position-relative ">
+        <img style="width: 100%;" src="https://i03.appmifile.com/609_operator_in/13/01/2023/a5c8f0be1ff691f51c520d8fa0fb9481.jpg?f=webp" alt="">
+        <!-- <img class="img-hid" src="https://i03.appmifile.com/665_operator_in/13/01/2023/e92da00d3e30b4da40cfdc76637a4d44.jpg?f=webp" alt=""> -->
+        <div style="top: 45%;left: 14%;" class="text-2 position-absolute" >
+          <span class="text-white" >From </span>
+          <strong class="text-white fs-4">17999</strong>
+          <del class="text-white">19999</del>
+          <br>
+          <button class="border-0 rounded-pill first-btn">buy Now</button>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row position-relative">
+          <div  class="col-sm-6">
+            <img style="width: 100%;" src="https://i03.appmifile.com/879_operator_in/05/01/2023/fefd682ceb51baa1990e5a6446322bee.jpg?f=webp" alt="">
+             <div  class="position-absolute img-tex1 d-grid ">
+              <a class="text-dark text-decoration-none fw-bold fs-5" href="">Best of Smartphones</a>
+              <a class="text-dark text-decoration-none "href="">Engineered for Speed</a>
+              <a class="text-danger text-decoration-none" href="">Buy Now</a>
+             </div>
+          </div>
+          <div class="col-sm-6">
+            <img style="width: 100%;"src="https://i03.appmifile.com/343_operator_in/08/12/2022/2dd5dbdd3a1efdc1ff26b8f67d3def6a.jpg?f=webp" alt="">
+             <div class="position-absolute d-grid img-tex2">
+              <a class="text-white text-decoration-none fw-bold fs-5" href="">Xiaomi Smart TV Series</a>
+              <a class="text-white text-decoration-none" href="">Vivid Picture Engine | 20W Dolby Audio</a>
+              <a class="text-danger text-decoration-none" href="">Buy now</a>
+             </div>        
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <img style="width: 100%;"src="https://i03.appmifile.com/634_operator_in/11/01/2023/fc91d68bc1e4e9b41bb6fde51043f2ad.jpg?f=webp" alt="">
+          </div>
+          <div class="col-sm-6">
+            <img style="width: 100%;height: 100%;"src="https://i02.appmifile.com/847_operator_global/04/01/2023/675cb28393ceb4d3cb4b62b55a1181fa.png?f=webp" alt="">
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container pt-5 ">
+        <div class="row text-center pt-5">
+           <div style="height: 445px;" class="col-sm-6 ">
+            <br>
+            <br>
+               <a class="fs-2 text-dark text-decoration-none " href="">XIAOMI CARE</a>
+               <div class="logos2 pt-5 d-flex justify-content-around ">
+                <div>
+                <img class="mi-logos"src="https://i03.appmifile.com/48_operator_in/17/11/2022/786ada679e2e325724eabe2876999875!96x96.png" alt="">
+              </div>
+              <div>
+                <img class="mi-logos" src="https://i03.appmifile.com/314_operator_in/17/11/2022/f9e475a37bff4b308e265881090a50ab!96x96.png" alt="">
+              </div>
+              <div>
+                <img class="mi-logos"src="https://i03.appmifile.com/101_operator_in/17/11/2022/0f88264f22456edc80f4ddbbab017d9a!96x96.png" alt=""> 
+              </div>
+              </div>
+              <div class="under-text d-flex justify-content-around pt-4">
+               
+                <a class="text-dark text-decoration-none" href="">Mi-Extended-Warranty</a>
+                <a  class="text-dark text-decoration-none"  href="">Mi-screen-protect</a>
+                <a  class="text-dark text-decoration-none"  href="">mi-complete-protect</a>
+              </div>
+              
+
+           </div>
+           <div class="col-sm-6">
+            <div style="height: 50%;" class="column">
+              <br>
+              <br>
+              <a class="text-dark text-decoration-none fw-bold fs-3"href="">Service Centres</a>
+              <br>
+              <br>
+              <a class="text-dark text-decoration-none "href="">We'll guide you to the best solution
+              </a>
+            </div>
+            <div style="height: 50%;" class="column">
+              <br>
+              <br>
+              <a class="text-dark text-decoration-none fw-bold fs-3" href="">Mi Exchange</a>
+              <br>
+              <br>
+              <a class="text-dark text-decoration-none " href="">Renewed For Smoother Experience and Better value for Exchange</a>
+    
+            </div>
+
+           </div>
+           
+        </div>
+      </div>
+     
+    </div>
+     <br>
+     <br>
+ <div class="container-fluid bg-dark">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5 class="text-white"> Shop And Learn</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi 12T pro</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi 12</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Redmi A1+</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Redmi Note 11 pro 5g</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Redmi pad</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi Smart band 7pro</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Redmi buds 4pro</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5 class="text-white">Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Contact us</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">User guide</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Warrenty</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">International Warrenty</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi support whatsapp</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi support instagram</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi support facebook</a></li>
+
+
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5 class="text-white">Contact us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Facebook</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">youtube</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">instagram</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Twitter</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi studies</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi creaters</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi Fan story</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2 mb-3">
+        <h5 class="text-white">About us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Leadership team</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Privacy Policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">integrity</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Press&Media</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Xiomi Blog</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Investor Relations</a></li>
+        </ul>
+      </div>
+
+      <div class="container w-25 col-sm-12 blo">
+        <div>
+          <a class="text-white fs-5 fw-bold text-decoration-none" href="">Follow Mi</a>
+        </div>
+        <div class="text-white d-flex flex-row">
+        <div>
+          <i id="foot-log" class="fa-brands fa-facebook"></i>
+          </div>
+          <div>
+            <i id="foot-log"  class="fa-brands fa-twitter"></i>
+          </div>
+          <div>
+            <i id="foot-log" class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+        <div class="sea-div">
+          <a class="text-white fs-5 fw-bold text-decoration-none" href="">Let's stay in touch</a>
+          <input type="text" class="form-control bg-dark text-white rounded-5" id="email" placeholder="Enter email" name="email">
+
+        </div>
+        <div class="border rounded-4 mt-3 d-flex">
+          <div>
+            <img style="width: 70%;" class="m-3" src="https://i03.appmifile.com/32_operator_in/22/11/2022/9b4d58f78a203b82a56bdd11692d4ba1.png" alt="">
+
+          </div>
+          <div>
+            <a class="text-white fs-5 fw-bold text-decoration-none" href="">Get mi store app</a>
+            <p class="text-white">Scan for our up-to-date information for better shopping experience</p>
+          </div>
+        </div>
+        <div class="hide-div">
+          <img style="width: 70%;" class="m-3" src="https://i03.appmifile.com/32_operator_in/22/11/2022/9b4d58f78a203b82a56bdd11692d4ba1.png" alt="">
+          <div>
+            <a class="text-white fs-5 fw-bold text-decoration-none" href="">Get mi store app</a>
+            <p class="text-white">Scan for our up-to-date information for better shopping experience</p>
+          </div>
+        </div>
+
+        </div>
+      </div>
+      
+      
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p class="text-white">© 2022 Company, Inc. All rights reserved.</p>
+      
+    </div>
+  </footer>
+</div>
+      
+      
+
+        
+     
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+     <script src="js/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
